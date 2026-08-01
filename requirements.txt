@@ -5,3 +5,5 @@ pillow>=10.0
 pdf2image>=1.16
 reportlab>=4.0
 faker>=20.0
+protobuf
+sentencepiece
