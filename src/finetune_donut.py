@@ -62,7 +62,7 @@ class StatementDataset(Dataset):
         return {"pixel_values": pixel_values, "labels": labels}
 
 
-def build_model_and_processor(image_size=(960, 1280), max_length=768):
+def build_model_and_processor(image_size=(640, 896), max_length=768):
     """
     Loads donut-base and adds our schema's special tokens to both the
     tokenizer and the model's decoder embedding matrix (which must be
