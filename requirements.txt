@@ -1,0 +1,7 @@
+torch>=2.0
+transformers>=4.35
+datasets>=2.14
+pillow>=10.0
+pdf2image>=1.16
+reportlab>=4.0
+faker>=20.0
