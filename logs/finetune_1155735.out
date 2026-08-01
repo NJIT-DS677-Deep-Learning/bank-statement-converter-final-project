@@ -1,0 +1,3 @@
+Using device: cuda
+Added 30 special tokens; vocab size now 57555
+train examples: 140, val examples: 30

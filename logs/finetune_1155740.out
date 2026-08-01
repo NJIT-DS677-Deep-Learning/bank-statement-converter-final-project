@@ -1,0 +1,238 @@
+Using device: cuda
+Added 30 special tokens; vocab size now 57555
+train examples: 140, val examples: 30
+epoch 0 step 0/140 loss 14.8739
+epoch 0 step 10/140 loss 9.6175
+epoch 0 step 20/140 loss 8.8656
+epoch 0 step 30/140 loss 8.5598
+epoch 0 step 40/140 loss 8.2240
+epoch 0 step 50/140 loss 7.6266
+epoch 0 step 60/140 loss 6.7161
+epoch 0 step 70/140 loss 6.2982
+epoch 0 step 80/140 loss 5.7999
+epoch 0 step 90/140 loss 5.1777
+epoch 0 step 100/140 loss 4.8157
+epoch 0 step 110/140 loss 4.3235
+epoch 0 step 120/140 loss 2.9885
+epoch 0 step 130/140 loss 2.5660
+=== epoch 0 done: train_loss=6.3901 val_loss=2.1579 ===
+Saved new best checkpoint to ./donut-bankstatement (val_loss=2.1579)
+epoch 1 step 0/140 loss 2.3918
+epoch 1 step 10/140 loss 2.1536
+epoch 1 step 20/140 loss 2.0029
+epoch 1 step 30/140 loss 1.9483
+epoch 1 step 40/140 loss 1.7059
+epoch 1 step 50/140 loss 1.4927
+epoch 1 step 60/140 loss 1.5314
+epoch 1 step 70/140 loss 1.5349
+epoch 1 step 80/140 loss 1.4340
+epoch 1 step 90/140 loss 1.4351
+epoch 1 step 100/140 loss 1.3569
+epoch 1 step 110/140 loss 1.1325
+epoch 1 step 120/140 loss 1.1029
+epoch 1 step 130/140 loss 1.0388
+=== epoch 1 done: train_loss=1.5899 val_loss=0.9517 ===
+Saved new best checkpoint to ./donut-bankstatement (val_loss=0.9517)
+epoch 2 step 0/140 loss 0.9572
+epoch 2 step 10/140 loss 0.8222
+epoch 2 step 20/140 loss 0.8586
+epoch 2 step 30/140 loss 0.9060
+epoch 2 step 40/140 loss 0.9672
+epoch 2 step 50/140 loss 0.8069
+epoch 2 step 60/140 loss 0.7952
+epoch 2 step 70/140 loss 0.6871
+epoch 2 step 80/140 loss 0.5780
+epoch 2 step 90/140 loss 0.5881
+epoch 2 step 100/140 loss 0.5516
+epoch 2 step 110/140 loss 0.5029
+epoch 2 step 120/140 loss 0.5214
+epoch 2 step 130/140 loss 0.5626
+=== epoch 2 done: train_loss=0.7386 val_loss=0.5000 ===
+Saved new best checkpoint to ./donut-bankstatement (val_loss=0.5000)
+epoch 3 step 0/140 loss 0.4733
+epoch 3 step 10/140 loss 0.4481
+epoch 3 step 20/140 loss 0.5236
+epoch 3 step 30/140 loss 0.4858
+epoch 3 step 40/140 loss 0.4243
+epoch 3 step 50/140 loss 0.3963
+epoch 3 step 60/140 loss 0.3620
+epoch 3 step 70/140 loss 0.2836
+epoch 3 step 80/140 loss 0.4233
+epoch 3 step 90/140 loss 0.3585
+epoch 3 step 100/140 loss 0.2670
+epoch 3 step 110/140 loss 0.2972
+epoch 3 step 120/140 loss 0.3284
+epoch 3 step 130/140 loss 0.3347
+=== epoch 3 done: train_loss=0.3864 val_loss=0.3670 ===
+Saved new best checkpoint to ./donut-bankstatement (val_loss=0.3670)
+epoch 4 step 0/140 loss 0.2239
+epoch 4 step 10/140 loss 0.3334
+epoch 4 step 20/140 loss 0.2267
+epoch 4 step 30/140 loss 0.1985
+epoch 4 step 40/140 loss 0.3212
+epoch 4 step 50/140 loss 0.2468
+epoch 4 step 60/140 loss 0.1750
+epoch 4 step 70/140 loss 0.1968
+epoch 4 step 80/140 loss 0.2621
+epoch 4 step 90/140 loss 0.1816
+epoch 4 step 100/140 loss 0.2884
+epoch 4 step 110/140 loss 0.2517
+epoch 4 step 120/140 loss 0.3100
+epoch 4 step 130/140 loss 0.2728
+=== epoch 4 done: train_loss=0.2402 val_loss=0.3198 ===
+Saved new best checkpoint to ./donut-bankstatement (val_loss=0.3198)
+epoch 5 step 0/140 loss 0.2216
+epoch 5 step 10/140 loss 0.1541
+epoch 5 step 20/140 loss 0.1130
+epoch 5 step 30/140 loss 0.1204
+epoch 5 step 40/140 loss 0.1878
+epoch 5 step 50/140 loss 0.1292
+epoch 5 step 60/140 loss 0.1375
+epoch 5 step 70/140 loss 0.0755
+epoch 5 step 80/140 loss 0.2628
+epoch 5 step 90/140 loss 0.2102
+epoch 5 step 100/140 loss 0.1446
+epoch 5 step 110/140 loss 0.2273
+epoch 5 step 120/140 loss 0.1812
+epoch 5 step 130/140 loss 0.1920
+=== epoch 5 done: train_loss=0.1706 val_loss=0.3012 ===
+Saved new best checkpoint to ./donut-bankstatement (val_loss=0.3012)
+epoch 6 step 0/140 loss 0.0794
+epoch 6 step 10/140 loss 0.0972
+epoch 6 step 20/140 loss 0.0879
+epoch 6 step 30/140 loss 0.4929
+epoch 6 step 40/140 loss 0.2388
+epoch 6 step 50/140 loss 0.1364
+epoch 6 step 60/140 loss 0.1622
+epoch 6 step 70/140 loss 0.0957
+epoch 6 step 80/140 loss 0.1328
+epoch 6 step 90/140 loss 0.1370
+epoch 6 step 100/140 loss 0.1699
+epoch 6 step 110/140 loss 0.1815
+epoch 6 step 120/140 loss 0.1430
+epoch 6 step 130/140 loss 0.1053
+=== epoch 6 done: train_loss=0.1443 val_loss=0.2906 ===
+Saved new best checkpoint to ./donut-bankstatement (val_loss=0.2906)
+epoch 7 step 0/140 loss 0.1169
+epoch 7 step 10/140 loss 0.1105
+epoch 7 step 20/140 loss 0.0315
+epoch 7 step 30/140 loss 0.1276
+epoch 7 step 40/140 loss 0.1001
+epoch 7 step 50/140 loss 0.0948
+epoch 7 step 60/140 loss 0.1009
+epoch 7 step 70/140 loss 0.1527
+epoch 7 step 80/140 loss 0.0732
+epoch 7 step 90/140 loss 0.0454
+epoch 7 step 100/140 loss 0.0635
+epoch 7 step 110/140 loss 0.1415
+epoch 7 step 120/140 loss 0.2350
+epoch 7 step 130/140 loss 0.0969
+=== epoch 7 done: train_loss=0.1064 val_loss=0.2897 ===
+Saved new best checkpoint to ./donut-bankstatement (val_loss=0.2897)
+epoch 8 step 0/140 loss 0.1011
+epoch 8 step 10/140 loss 0.0436
+epoch 8 step 20/140 loss 0.0769
+epoch 8 step 30/140 loss 0.1191
+epoch 8 step 40/140 loss 0.0672
+epoch 8 step 50/140 loss 0.1684
+epoch 8 step 60/140 loss 0.0881
+epoch 8 step 70/140 loss 0.0721
+epoch 8 step 80/140 loss 0.0685
+epoch 8 step 90/140 loss 0.0691
+epoch 8 step 100/140 loss 0.0381
+epoch 8 step 110/140 loss 0.1220
+epoch 8 step 120/140 loss 0.0665
+epoch 8 step 130/140 loss 0.1087
+=== epoch 8 done: train_loss=0.0780 val_loss=0.2765 ===
+Saved new best checkpoint to ./donut-bankstatement (val_loss=0.2765)
+epoch 9 step 0/140 loss 0.0544
+epoch 9 step 10/140 loss 0.0247
+epoch 9 step 20/140 loss 0.1368
+epoch 9 step 30/140 loss 0.0392
+epoch 9 step 40/140 loss 0.0334
+epoch 9 step 50/140 loss 0.3177
+epoch 9 step 60/140 loss 0.0738
+epoch 9 step 70/140 loss 0.0461
+epoch 9 step 80/140 loss 0.0606
+epoch 9 step 90/140 loss 0.0715
+epoch 9 step 100/140 loss 0.0642
+epoch 9 step 110/140 loss 0.0436
+epoch 9 step 120/140 loss 0.0983
+epoch 9 step 130/140 loss 0.2926
+=== epoch 9 done: train_loss=0.0730 val_loss=0.2969 ===
+epoch 10 step 0/140 loss 0.0653
+epoch 10 step 10/140 loss 0.0371
+epoch 10 step 20/140 loss 0.0505
+epoch 10 step 30/140 loss 0.0317
+epoch 10 step 40/140 loss 0.0364
+epoch 10 step 50/140 loss 0.0472
+epoch 10 step 60/140 loss 0.0485
+epoch 10 step 70/140 loss 0.0241
+epoch 10 step 80/140 loss 0.1265
+epoch 10 step 90/140 loss 0.0291
+epoch 10 step 100/140 loss 0.0179
+epoch 10 step 110/140 loss 0.0311
+epoch 10 step 120/140 loss 0.0242
+epoch 10 step 130/140 loss 0.0542
+=== epoch 10 done: train_loss=0.0442 val_loss=0.2980 ===
+epoch 11 step 0/140 loss 0.5916
+epoch 11 step 10/140 loss 0.0443
+epoch 11 step 20/140 loss 0.0928
+epoch 11 step 30/140 loss 0.0496
+epoch 11 step 40/140 loss 0.0238
+epoch 11 step 50/140 loss 0.0634
+epoch 11 step 60/140 loss 0.0584
+epoch 11 step 70/140 loss 0.0410
+epoch 11 step 80/140 loss 0.0816
+epoch 11 step 90/140 loss 0.1121
+epoch 11 step 100/140 loss 0.0137
+epoch 11 step 110/140 loss 0.1271
+epoch 11 step 120/140 loss 0.0570
+epoch 11 step 130/140 loss 0.0886
+=== epoch 11 done: train_loss=0.0640 val_loss=0.2906 ===
+epoch 12 step 0/140 loss 0.0642
+epoch 12 step 10/140 loss 0.0322
+epoch 12 step 20/140 loss 0.0318
+epoch 12 step 30/140 loss 0.0392
+epoch 12 step 40/140 loss 0.0281
+epoch 12 step 50/140 loss 0.0411
+epoch 12 step 60/140 loss 0.0236
+epoch 12 step 70/140 loss 0.0287
+epoch 12 step 80/140 loss 0.0914
+epoch 12 step 90/140 loss 0.0633
+epoch 12 step 100/140 loss 0.0397
+epoch 12 step 110/140 loss 0.0472
+epoch 12 step 120/140 loss 0.0173
+epoch 12 step 130/140 loss 0.0533
+=== epoch 12 done: train_loss=0.0535 val_loss=0.3112 ===
+epoch 13 step 0/140 loss 0.0707
+epoch 13 step 10/140 loss 0.0466
+epoch 13 step 20/140 loss 0.0495
+epoch 13 step 30/140 loss 0.0847
+epoch 13 step 40/140 loss 0.0649
+epoch 13 step 50/140 loss 0.0598
+epoch 13 step 60/140 loss 0.0813
+epoch 13 step 70/140 loss 0.0205
+epoch 13 step 80/140 loss 0.0459
+epoch 13 step 90/140 loss 0.0463
+epoch 13 step 100/140 loss 0.0500
+epoch 13 step 110/140 loss 0.1153
+epoch 13 step 120/140 loss 0.0822
+epoch 13 step 130/140 loss 0.0399
+=== epoch 13 done: train_loss=0.0683 val_loss=0.3076 ===
+epoch 14 step 0/140 loss 0.0206
+epoch 14 step 10/140 loss 0.0357
+epoch 14 step 20/140 loss 0.0290
+epoch 14 step 30/140 loss 0.0476
+epoch 14 step 40/140 loss 0.0113
+epoch 14 step 50/140 loss 0.0353
+epoch 14 step 60/140 loss 0.0202
+epoch 14 step 70/140 loss 0.0178
+epoch 14 step 80/140 loss 0.0235
+epoch 14 step 90/140 loss 0.0177
+epoch 14 step 100/140 loss 0.0184
+epoch 14 step 110/140 loss 0.0068
+epoch 14 step 120/140 loss 0.0218
+epoch 14 step 130/140 loss 0.0800
+=== epoch 14 done: train_loss=0.0361 val_loss=0.2984 ===
+Training complete.

@@ -13,4 +13,4 @@ mkdir -p logs
 module load bright
 module load python3
 source venv/bin/activate
-python src/finetune_donut.py --dataset ./dataset --epochs 4 --out ./donut-bankstatement --batch-size 1
+python src/finetune_donut.py --dataset ./dataset --epochs 15 --out ./donut-bankstatement --batch-size 1

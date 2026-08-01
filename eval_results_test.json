@@ -1,0 +1,29 @@
+{
+  "n_statements": 30,
+  "header_field_exact_accuracy": {
+    "account_holder": 0.0,
+    "account_number": 0.0,
+    "bank_name": 0.0,
+    "statement_period_start": 0.0,
+    "statement_period_end": 0.0,
+    "opening_balance": 0.0,
+    "closing_balance": 0.0
+  },
+  "mean_header_exact_accuracy": 0.0,
+  "header_field_char_similarity": {
+    "account_holder": 0.45209720425896055,
+    "account_number": 0.24870370370370373,
+    "bank_name": 0.245679012345679,
+    "statement_period_start": 0.16817765567765566,
+    "statement_period_end": 0.2268416768416768,
+    "opening_balance": 0.016041080537066262,
+    "closing_balance": 0.0056737588652482265
+  },
+  "mean_header_char_similarity": 0.19474487031857005,
+  "transaction_precision_exact": 0.0,
+  "transaction_recall_exact": 0.0,
+  "transaction_f1_exact": 0.0,
+  "transaction_precision_fuzzy": 0.0,
+  "transaction_recall_fuzzy": 0.0,
+  "transaction_f1_fuzzy": 0.0
+}

@@ -1,0 +1,40 @@
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+Traceback (most recent call last):
+  File "/mmfs1/home/tlw25/bank-statement-converter-final-project/venv/lib/python3.9/site-packages/transformers/tokenization_utils_base.py", line 2359, in _from_pretrained
+    tokenizer = cls(*init_inputs, **init_kwargs)
+  File "/mmfs1/home/tlw25/bank-statement-converter-final-project/venv/lib/python3.9/site-packages/transformers/models/xlm_roberta/tokenization_xlm_roberta_fast.py", line 108, in __init__
+    super().__init__(
+  File "/mmfs1/home/tlw25/bank-statement-converter-final-project/venv/lib/python3.9/site-packages/transformers/tokenization_utils_fast.py", line 108, in __init__
+    raise ValueError(
+ValueError: Cannot instantiate this tokenizer from a slow version. If it's based on sentencepiece, make sure you have sentencepiece installed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mmfs1/home/tlw25/bank-statement-converter-final-project/src/finetune_donut.py", line 163, in <module>
+    train(args)
+  File "/mmfs1/home/tlw25/bank-statement-converter-final-project/src/finetune_donut.py", line 98, in train
+    model, processor = build_model_and_processor(max_length=args.max_length)
+  File "/mmfs1/home/tlw25/bank-statement-converter-final-project/src/finetune_donut.py", line 75, in build_model_and_processor
+    processor = DonutProcessor.from_pretrained(MODEL_ID)
+  File "/mmfs1/home/tlw25/bank-statement-converter-final-project/venv/lib/python3.9/site-packages/transformers/processing_utils.py", line 1394, in from_pretrained
+    args = cls._get_arguments_from_pretrained(pretrained_model_name_or_path, **kwargs)
+  File "/mmfs1/home/tlw25/bank-statement-converter-final-project/venv/lib/python3.9/site-packages/transformers/processing_utils.py", line 1453, in _get_arguments_from_pretrained
+    args.append(attribute_class.from_pretrained(pretrained_model_name_or_path, **kwargs))
+  File "/mmfs1/home/tlw25/bank-statement-converter-final-project/venv/lib/python3.9/site-packages/transformers/models/auto/tokenization_auto.py", line 1156, in from_pretrained
+    return tokenizer_class.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+  File "/mmfs1/home/tlw25/bank-statement-converter-final-project/venv/lib/python3.9/site-packages/transformers/tokenization_utils_base.py", line 2113, in from_pretrained
+    return cls._from_pretrained(
+  File "/mmfs1/home/tlw25/bank-statement-converter-final-project/venv/lib/python3.9/site-packages/transformers/tokenization_utils_base.py", line 2360, in _from_pretrained
+    except import_protobuf_decode_error():
+  File "/mmfs1/home/tlw25/bank-statement-converter-final-project/venv/lib/python3.9/site-packages/transformers/tokenization_utils_base.py", line 88, in import_protobuf_decode_error
+    raise ImportError(PROTOBUF_IMPORT_ERROR.format(error_message))
+ImportError: 
+ requires the protobuf library but it was not found in your environment. Check out the instructions on the
+installation page of its repo: https://github.com/protocolbuffers/protobuf/tree/master/python#installation and follow the ones
+that match your environment. Please note that you may need to restart your runtime after installation.
+
+/var/spool/slurmd/job1155645/slurm_script: line 39: --dataset: command not found
+/var/spool/slurmd/job1155645/slurm_script: line 41: --epochs: command not found
+/var/spool/slurmd/job1155645/slurm_script: line 43: --out: command not found
+/var/spool/slurmd/job1155645/slurm_script: line 45: --batch-size: command not found

@@ -1,0 +1,58 @@
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+The new embeddings will be initialized from a multivariate normal distribution that has old embeddings' mean and covariance. As described in this article: https://nlp.stanford.edu/~johnhew/vocab-expansion.html. To disable this, use `mean_resizing=False`
+Traceback (most recent call last):
+  File "/mmfs1/home/tlw25/bank-statement-converter-final-project/src/finetune_donut.py", line 163, in <module>
+    train(args)
+  File "/mmfs1/home/tlw25/bank-statement-converter-final-project/src/finetune_donut.py", line 120, in train
+    outputs = model(pixel_values=pixel_values, labels=labels)
+  File "/mmfs1/home/tlw25/bank-statement-converter-final-project/venv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/mmfs1/home/tlw25/bank-statement-converter-final-project/venv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mmfs1/home/tlw25/bank-statement-converter-final-project/venv/lib/python3.9/site-packages/transformers/models/vision_encoder_decoder/modeling_vision_encoder_decoder.py", line 525, in forward
+    encoder_outputs = self.encoder(
+  File "/mmfs1/home/tlw25/bank-statement-converter-final-project/venv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/mmfs1/home/tlw25/bank-statement-converter-final-project/venv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mmfs1/home/tlw25/bank-statement-converter-final-project/venv/lib/python3.9/site-packages/transformers/models/donut/modeling_donut_swin.py", line 922, in forward
+    encoder_outputs = self.encoder(
+  File "/mmfs1/home/tlw25/bank-statement-converter-final-project/venv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/mmfs1/home/tlw25/bank-statement-converter-final-project/venv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mmfs1/home/tlw25/bank-statement-converter-final-project/venv/lib/python3.9/site-packages/transformers/models/donut/modeling_donut_swin.py", line 783, in forward
+    layer_outputs = layer_module(
+  File "/mmfs1/home/tlw25/bank-statement-converter-final-project/venv/lib/python3.9/site-packages/transformers/modeling_layers.py", line 94, in __call__
+    return super().__call__(*args, **kwargs)
+  File "/mmfs1/home/tlw25/bank-statement-converter-final-project/venv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/mmfs1/home/tlw25/bank-statement-converter-final-project/venv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mmfs1/home/tlw25/bank-statement-converter-final-project/venv/lib/python3.9/site-packages/transformers/models/donut/modeling_donut_swin.py", line 712, in forward
+    layer_outputs = layer_module(
+  File "/mmfs1/home/tlw25/bank-statement-converter-final-project/venv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/mmfs1/home/tlw25/bank-statement-converter-final-project/venv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mmfs1/home/tlw25/bank-statement-converter-final-project/venv/lib/python3.9/site-packages/transformers/models/donut/modeling_donut_swin.py", line 641, in forward
+    attention_outputs = self.attention(
+  File "/mmfs1/home/tlw25/bank-statement-converter-final-project/venv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/mmfs1/home/tlw25/bank-statement-converter-final-project/venv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mmfs1/home/tlw25/bank-statement-converter-final-project/venv/lib/python3.9/site-packages/transformers/models/donut/modeling_donut_swin.py", line 511, in forward
+    self_outputs = self.self(hidden_states, attention_mask, head_mask, output_attentions)
+  File "/mmfs1/home/tlw25/bank-statement-converter-final-project/venv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/mmfs1/home/tlw25/bank-statement-converter-final-project/venv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mmfs1/home/tlw25/bank-statement-converter-final-project/venv/lib/python3.9/site-packages/transformers/models/donut/modeling_donut_swin.py", line 418, in forward
+    key_layer = self.key(hidden_states).view(hidden_shape).transpose(1, 2)
+  File "/mmfs1/home/tlw25/bank-statement-converter-final-project/venv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/mmfs1/home/tlw25/bank-statement-converter-final-project/venv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mmfs1/home/tlw25/bank-statement-converter-final-project/venv/lib/python3.9/site-packages/torch/nn/modules/linear.py", line 125, in forward
+    return F.linear(input, self.weight, self.bias)
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB. GPU 0 has a total capacity of 9.75 GiB of which 16.94 MiB is free. Including non-PyTorch memory, this process has 9.66 GiB memory in use. Of the allocated memory 9.32 GiB is allocated by PyTorch, and 184.96 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

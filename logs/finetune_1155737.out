@@ -1,0 +1,68 @@
+Using device: cuda
+Added 30 special tokens; vocab size now 57555
+train examples: 140, val examples: 30
+epoch 0 step 0/140 loss 13.7516
+epoch 0 step 10/140 loss 9.8862
+epoch 0 step 20/140 loss 9.0956
+epoch 0 step 30/140 loss 8.3012
+epoch 0 step 40/140 loss 8.1403
+epoch 0 step 50/140 loss 7.6989
+epoch 0 step 60/140 loss 7.4259
+epoch 0 step 70/140 loss 6.9180
+epoch 0 step 80/140 loss 6.8226
+epoch 0 step 90/140 loss 5.9247
+epoch 0 step 100/140 loss 5.1607
+epoch 0 step 110/140 loss 4.6724
+epoch 0 step 120/140 loss 3.7131
+epoch 0 step 130/140 loss 3.3614
+=== epoch 0 done: train_loss=6.8475 val_loss=3.0760 ===
+Saved new best checkpoint to ./donut-bankstatement (val_loss=3.0760)
+epoch 1 step 0/140 loss 3.3759
+epoch 1 step 10/140 loss 3.2739
+epoch 1 step 20/140 loss 3.1169
+epoch 1 step 30/140 loss 3.0176
+epoch 1 step 40/140 loss 2.9621
+epoch 1 step 50/140 loss 2.6569
+epoch 1 step 60/140 loss 2.7018
+epoch 1 step 70/140 loss 2.5583
+epoch 1 step 80/140 loss 2.5332
+epoch 1 step 90/140 loss 2.5517
+epoch 1 step 100/140 loss 2.6136
+epoch 1 step 110/140 loss 2.1517
+epoch 1 step 120/140 loss 2.3771
+epoch 1 step 130/140 loss 2.4029
+=== epoch 1 done: train_loss=2.6706 val_loss=2.1373 ===
+Saved new best checkpoint to ./donut-bankstatement (val_loss=2.1373)
+epoch 2 step 0/140 loss 2.2337
+epoch 2 step 10/140 loss 2.3430
+epoch 2 step 20/140 loss 2.0547
+epoch 2 step 30/140 loss 2.1512
+epoch 2 step 40/140 loss 1.9942
+epoch 2 step 50/140 loss 1.9518
+epoch 2 step 60/140 loss 2.1269
+epoch 2 step 70/140 loss 2.0126
+epoch 2 step 80/140 loss 1.9445
+epoch 2 step 90/140 loss 1.9179
+epoch 2 step 100/140 loss 1.9258
+epoch 2 step 110/140 loss 1.8828
+epoch 2 step 120/140 loss 1.7616
+epoch 2 step 130/140 loss 2.0206
+=== epoch 2 done: train_loss=2.0102 val_loss=1.7821 ===
+Saved new best checkpoint to ./donut-bankstatement (val_loss=1.7821)
+epoch 3 step 0/140 loss 1.8101
+epoch 3 step 10/140 loss 1.8898
+epoch 3 step 20/140 loss 1.7313
+epoch 3 step 30/140 loss 1.7947
+epoch 3 step 40/140 loss 1.7735
+epoch 3 step 50/140 loss 1.7748
+epoch 3 step 60/140 loss 1.7283
+epoch 3 step 70/140 loss 1.8320
+epoch 3 step 80/140 loss 1.7550
+epoch 3 step 90/140 loss 1.7841
+epoch 3 step 100/140 loss 1.6989
+epoch 3 step 110/140 loss 1.8532
+epoch 3 step 120/140 loss 1.7877
+epoch 3 step 130/140 loss 1.7907
+=== epoch 3 done: train_loss=1.7426 val_loss=1.6563 ===
+Saved new best checkpoint to ./donut-bankstatement (val_loss=1.6563)
+Training complete.
